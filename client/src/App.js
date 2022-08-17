@@ -18,13 +18,20 @@ const App = () => {
       }
     }).catch(err =>{
       console.log(err)
-    })
-  }
+    });
+  };
+
+  // Loads the data
+  useEffect(() => {
+    loadData();
+  },[]);
 
   return (
     <div className='container'>
 
       <h1>React Accordion</h1>
+      {/* Loads the data unto the h2 */}
+      <h2>{JSON.stringify(showtData)}</h2>
 
     </div>
   )
