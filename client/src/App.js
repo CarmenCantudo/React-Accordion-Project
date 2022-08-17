@@ -31,7 +31,18 @@ const App = () => {
 
       <h1>React Accordion</h1>
       {/* Loads the data unto the h2 */}
-      <h2>{JSON.stringify(showtData)}</h2>
+      
+      <div className='row'>
+
+        {showtData.map((item,index) => (
+          <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12' key={index}>
+            {/* Get title and description from API */}
+            <h5>{item.title}</h5>
+            <p>{item.des}</p>
+          </div>
+        ))}
+
+      </div>
 
     </div>
   )
