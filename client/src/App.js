@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import Data from './Data';
 
 const App = () => {
 
@@ -36,9 +37,8 @@ const App = () => {
 
         {showtData.map((item,index) => (
           <div className='col-xl-6 col-lg-6 col-md-6 col-sm-12' key={index}>
-            {/* Get title and description from API */}
-            <h5>{item.title}</h5>
-            <p>{item.des}</p>
+            {/* Call Data component */}
+            <Data {...item}/>
           </div>
         ))}
 
@@ -48,4 +48,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
