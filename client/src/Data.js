@@ -9,4 +9,4 @@ const Data = (title, body) => {
   )
 }
 
-export default 
+export default Data
