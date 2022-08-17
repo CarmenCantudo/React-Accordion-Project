@@ -15,3 +15,11 @@ A blue button should appear to click: _Make Public_,
 Another blue button should appear to click: _Open Browser_.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+
+
+# Credits
+
+- https://www.udemy.com/course/react-js-course-build-a-complete-project-project-base/
+- https://getbootstrap.com/docs/5.2/getting-started/introduction/
+- https://www.npmjs.com/package/react-icons
+- https://jsonplaceholder.typicode.com/
